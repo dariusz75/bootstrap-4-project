@@ -2,9 +2,11 @@
 @import 'bootstrap/bootstrap';
 
 //custom styles
-@import 'custom/base/_variables';
-@import 'custom/base/_mixins';
-@import 'custom/base/_typography';
-@import 'custom/components/_components';
-@import 'custom/pages/_pages';
+@import 'custom/base/variables';
+@import 'custom/base/mixins';
+@import 'custom/base/typography';
+@import 'custom/components/components';
+@import 'custom/pages/pages';
+
+
 
