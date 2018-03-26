@@ -1,2 +1,10 @@
 // Bootstrap 4 styles
 @import 'bootstrap/bootstrap';
+
+//custom styles
+@import 'custom/base/_variables';
+@import 'custom/base/_mixins';
+@import 'custom/base/_typography';
+@import 'custom/components/_components';
+@import 'custom/pages/_pages';
+
