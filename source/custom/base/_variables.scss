@@ -11,3 +11,18 @@ $contact-form-shadow: #292c31;
 $product-search-btn-color: #ccc;
 
 
+/* ######### overwriting bootstrap variables ########## */
+
+//greys
+$gray-100: $custom-grey-100;
+$gray-200: $custom-grey-200;
+$gray-600: $custom-grey-600;
+$gray-800: $custom-grey-800;
+$gray-900: $custom-grey-900;
+
+//border radius
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+
