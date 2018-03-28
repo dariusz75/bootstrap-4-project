@@ -1,0 +1,15 @@
+.custom-header-item-link {
+    font-size: .65rem;
+    @include media-breakpoint-up(md) {
+        padding: 1.65rem 1.25rem;
+    }
+}
+
+/*
+IMPORTANT
+ @include media-breakpoint-up(md) {} - Bootstrap way to declare madia queries
+*/
+
+.custom-header-item-active {
+    background-color: #fff;
+}
