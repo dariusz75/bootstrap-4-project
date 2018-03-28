@@ -1,6 +1,7 @@
 /* ######### CUSTOM SASS VARIABLES TO OVERWRITE BOOTSTRAP ########## */
 
 //colors
+$custom-primery-color: #607D8B;
 $custom-accent-color: #be8c6b;
 $custom-grey-100: #f8f8f8;
 $custom-grey-200: #eee;
@@ -24,7 +25,7 @@ $font-secondary: 'Oswald', Helvetica, Arial, sans-serif;
 
 //colors
 $theme-colors: (
-    "primary": $custom-accent-color
+    "primary": $custom-primery-color
 );
 
 $gray-100: $custom-grey-100;
