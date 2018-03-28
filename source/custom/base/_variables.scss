@@ -14,8 +14,8 @@ $contact-form-shadow: #292c31;
 $product-search-btn-color: #ccc;
 
 //fonts
-$font-primary: 'Lato', Helvetica, Arial, sans-serif;
-$font-secondary: 'Oswald', Helvetica, Arial, sans-serif;
+$font-primary: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-secondary: 'Open Sans', Helvetica, Arial, sans-serif;
 
 
 
@@ -42,7 +42,7 @@ $border-radius-sm: 0;
 //fonts
 $font-family-sans-serif: $font-primary;
 $headings-font-family: $font-secondary;
-$headings-font-weight: 700;
+$headings-font-weight: 600;
 $font-size-base: 0.875rem;
 $line-height-base: 1.75;
 $font-size-sm: ($font-size-base * .75);
@@ -52,3 +52,6 @@ $h2-font-size: 2.143rem;
 $h3-font-size: 1.375rem;
 $h4-font-size: 1rem;
 $h5-font-size: 0.875rem;
+
+//Jumbotron
+$jumbotron-padding: 7rem;
