@@ -8,7 +8,9 @@ var watchedFiles = 'source/**/*.scss';
 
 gulp.task('buildcss', function(){
 	return gulp.src(sassSourceFile)
-		.pipe(sass())
+		.pipe(sass({
+			outputStyle: 'compressed'
+		}))
 		.pipe(gulp.dest(cssCopmiledFile));
 });
 
