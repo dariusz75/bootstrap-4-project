@@ -37,3 +37,51 @@
   width: 26px;
   height: 26px;
 }
+
+.newsletter-form {
+  margin-bottom: 0.75rem;
+}
+
+.newsletter-form-control {
+  height: 1.55rem;
+  font-size: 0.75rem;
+}
+
+.newsletter-btn {
+  padding: .25rem 1rem;
+  font-size: 0.625rem;
+}
+
+.copyright {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  background-color: $custom-primary-1;
+  color: #fff;
+  font-size: 0.75rem;
+  z-index: 1100;
+}
+
+
+
+
+
+.front-page-welcome {
+  padding: 1rem;
+}
+
+.intro-subheader {}
+
+
+.intro-header {
+  color: $custom-primary-1;
+  span {
+    color: $custom-secondary-4;
+  }
+}
+
+.separator {} 
+
+.intro-rule {}
+

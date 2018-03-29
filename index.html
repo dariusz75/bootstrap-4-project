@@ -18,7 +18,9 @@
     <div class="bg-primary custom-header fixed-top">
       <div class="container-fluid">
           <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#">LOGO</a>
+            <div class="">
+              <img class="navbar-brand company-logo" src="images/company-logo.svg" alt="logo">
+            </div>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -96,13 +98,42 @@
     </div>
   -->
 
-    <!-- top unit -->
+    <!-- top section -->
     <div class="jumbotron text-center custom-top-section">
       <div class="container-fluid">
         <h1 class="text-white custom-top-section-header">Providers of leading tax technology solutions & services</h1>
       </div>
     </div>
 
+    <!-- welcome section -->
+    <div class="front-page-welcome">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <span class="intro-subheader">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+            <h3 class="intro-header">WELCOME TO <span>OUR PAGE</span></h3>
+            <div class="separator intro-rule"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Pariatur fuga doloribus cupiditate quas fugit quis impedit 
+              nulla repudiandae tempore ex minus sed, unde cumque a qui 
+              odio culpa saepe quam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Pariatur fuga doloribus cupiditate quas fugit quis impedit 
+              nulla repudiandae tempore ex minus sed, unde cumque a qui 
+              odio culpa saepe quam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Pariatur fuga doloribus cupiditate quas fugit quis impedit 
+              nulla repudiandae tempore ex minus sed, unde cumque a qui 
+              odio culpa saepe quam.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="images/pages/front-page-welcome.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- footer -->
     <div class="footer-top">
@@ -179,10 +210,23 @@
       </div>
     </div>
 
+    <div class="copyright">
+    <div class="conteiner-fluid">
+        Copyright &#169; <span id="date-year"></span> Tax Computer Systems Limited. All rights reserved.
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <script>
+        var d = new Date();
+        var y = d.getFullYear();
+        document.getElementById("date-year").innerHTML = y;
+    </script>
+  
   </body>
 </html>

@@ -10,6 +10,10 @@ IMPORTANT
  @include media-breakpoint-up(md) {} - Bootstrap way to declare madia queries
 */
 
+.company-logo {
+    max-height: 50px;
+}
+
 .custom-header-item-active {
     border-bottom: solid 2px $custom-secondary-4;
 }
