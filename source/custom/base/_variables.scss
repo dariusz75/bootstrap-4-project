@@ -1,6 +1,20 @@
 /* ######### CUSTOM SASS VARIABLES TO OVERWRITE BOOTSTRAP ########## */
 
 //colors
+$custom-primary-1: #607D8B !default; /*GREY BLUE*/
+$custom-primary-1-hover: #F9A825; /**/
+$custom-primary-2: #4E5D64; /*to confirm*/
+$custom-primary-3: #0157A0; /*DARK BLUE*/
+$custom-primary-4: #1C71B9; /*MEDIUM BLUE*/
+
+
+$custom-secondary-1: #6F7C7C; /*GREEN GREY*/
+$custom-secondary-2: #96A0AD; /*MEDIUM GREY*/
+$custom-secondary-3: #CCC; /*LIGHT GREY*/
+$custom-secondary-4: #EF6C00; /*ORANGE*/
+
+$custom-basic-dark: #363636; /*CHARCOAL BLACK*/
+
 $custom-primery-color: #607D8B;
 $custom-accent-color: #be8c6b;
 $custom-grey-100: #f8f8f8;
@@ -25,7 +39,7 @@ $font-secondary: 'Open Sans', Helvetica, Arial, sans-serif;
 
 //colors
 $theme-colors: (
-    "primary": $custom-primery-color
+    "primary": $custom-primary-1
 );
 
 $gray-100: $custom-grey-100;
@@ -47,6 +61,9 @@ $font-size-base: 0.875rem;
 $line-height-base: 1.75;
 $font-size-sm: ($font-size-base * .75);
 
+//navbar
+$navbar-padding-y: 0;
+
 //H-tags
 $h2-font-size: 2.143rem;
 $h3-font-size: 1.375rem;
@@ -55,3 +72,4 @@ $h5-font-size: 0.875rem;
 
 //Jumbotron
 $jumbotron-padding: 7rem;
+

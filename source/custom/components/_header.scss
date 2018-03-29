@@ -1,7 +1,7 @@
 .custom-header-item-link {
     font-size: .65rem;
     @include media-breakpoint-up(md) {
-        padding: 1.65rem 1.25rem;
+        padding: 1.25rem 1.25rem;
     }
 }
 
@@ -11,17 +11,24 @@ IMPORTANT
 */
 
 .custom-header-item-active {
-    background-color: #fff;
+    border-bottom: solid 2px $custom-secondary-4;
 }
 
 .custom-top-section {
+    margin-bottom: 0;
+    position: relative;
     background: url('../images/main-nanner-1.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    &:after {
+      @include bg-overlay(black, 0.1);  
+    }
 }
 
 .custom-top-section-header {
+    position: relative;
     filter: drop-shadow(0 2px rgba($custom-grey-900, 2));
+    z-index: 10;
 }
