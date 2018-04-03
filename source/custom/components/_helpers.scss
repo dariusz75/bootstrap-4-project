@@ -1,0 +1,12 @@
+.custom-hr {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    height: 1px;
+    background-color: darken($grey-200, 5%);
+} 
+
+
+.alternate-bg {
+    background-color: $grey-100;
+}

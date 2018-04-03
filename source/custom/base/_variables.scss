@@ -1,7 +1,7 @@
 /* ######### CUSTOM SASS VARIABLES TO OVERWRITE BOOTSTRAP ########## */
 
 //colors
-$custom-primary-1: #607D8B !default; /*GREY BLUE*/
+$custom-primary-1: #607D8B; /*GREY BLUE*/
 $custom-primary-1-hover: #F9A825; /**/
 $custom-primary-2: #4E5D64; /*to confirm*/
 $custom-primary-3: #0157A0; /*DARK BLUE*/
@@ -42,11 +42,11 @@ $theme-colors: (
     "primary": $custom-primary-1
 );
 
-$gray-100: $custom-grey-100;
-$gray-200: $custom-grey-200;
-$gray-600: $custom-grey-600;
-$gray-800: $custom-grey-800;
-$gray-900: $custom-grey-900;
+$grey-100: $custom-grey-100;
+$grey-200: $custom-grey-200;
+$grey-600: $custom-grey-600;
+$grey-800: $custom-grey-800;
+$grey-900: $custom-grey-900;
 
 //border radius
 $border-radius: 0;
@@ -63,6 +63,9 @@ $font-size-sm: ($font-size-base * .75);
 
 //navbar
 $navbar-padding-y: 0;
+$navbar-light-color: $custom-primary-1;
+$navbar-light-hover-color: $custom-secondary-4;
+
 
 //H-tags
 $h2-font-size: 2.143rem;

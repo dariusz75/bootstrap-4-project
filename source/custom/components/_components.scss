@@ -1,2 +1,103 @@
 @import 'header';
 @import 'footer';
+@import 'helpers';
+
+
+//portfolio section
+.portfolio-box {
+    position: relative;
+    color: #fff;
+}
+
+/*
+.portfolio-box.featured {
+    max-width: 540px;
+}
+
+.portfolio-box-img {
+    max-width: 540px;
+}
+*/
+
+
+
+.portfolio-box-text {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 65%;
+    text-align: center;
+    z-index: 1000;
+    transform: translateY(-50%);
+}
+
+.portfolio-box-title {
+    margin-bottom: 1.2rem;
+    font-size: 1.55rem;
+    letter-spacing: 0.2rem;
+}
+
+.portfolio-img {
+    max-width: 15rem;
+    max-height: 12rem; 
+}
+
+.portfolio-img-overlay{
+    &:after {
+        @include bg-overlay($custom-secondary-4, 0.6);
+    }
+
+}
+
+
+// services box section
+.services-box-top {
+    margin-bottom: 1.4rem;
+}
+
+.services-box-img {
+    position: relative;
+    margin: 0.8rem 1.6rem 0 0.8rem;
+    z-index: 1000;
+}
+
+.services-box-title {
+    margin-top: 0rem;
+    line-height: 1;
+}
+
+.services-box-header {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.services-box-text {
+    font-size: 0.8rem;
+    margin-top: 1.75rem;
+    line-height: 2;
+}
+
+.services-box-shadow {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 85px;
+    height: 85px;
+    background-color: $custom-secondary-4;
+}
+
+.services-group {
+    height: 100px;
+    background-color: lighten($custom-secondary-3, 15%);
+}
+
+.services-item {
+    width: 25%;   
+}
+
+.services-item-title {
+    text-align: center;
+}
+
