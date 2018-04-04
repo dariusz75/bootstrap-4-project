@@ -1,0 +1,15 @@
+.contact-us-text {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.contact-us-content {
+    font-size: 1rem;
+    span {
+        font-weight: 600;
+    }
+    .p-1 {
+        font-size: 1.25rem;
+        border-bottom: 1px dotted $custom-primary-1;
+    }
+}
