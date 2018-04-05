@@ -2,7 +2,7 @@
     position: relative;
     margin-bottom: 3rem;
     padding: 30px 0 20px 0;
-    background: url('../images/bg/footer-bg.jpg') 50% 50% no-repeat;
+    background: url('../images/footer-bg.jpg') 50% 50% no-repeat;
     background-size: cover;
     &:after {
         @include bg-overlay(black, 0.7);  
