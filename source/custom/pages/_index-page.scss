@@ -12,7 +12,22 @@
     }
 }
 
+.front-page-welcome {
+    padding: 1rem;
+  }
+  
+  
+  .intro-header {
+    font-size: 1.25rem;
+    color: $custom-primary-1;
+    span {
+      color: $custom-secondary-4;
+    }
+  }
 
+.intro-subheader {
+    font-size: 0.7rem;
+}
 
 //portfolio section
 .portfolio-box {
