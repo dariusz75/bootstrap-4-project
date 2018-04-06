@@ -5,7 +5,7 @@
 }
 
 .contact-us-text {
-    margin-bottom: 20px;
+  	margin-bottom: 20px;
     font-size: 1.125rem;
 }
 
@@ -17,5 +17,10 @@
     .p-1 {
         font-size: 1.25rem;
         border-bottom: 1px dotted $custom-primary-1;
-    }
+		}
+		
+		.map-container {
+			display: flex;
+			justify-content: center;
+		}
 }
