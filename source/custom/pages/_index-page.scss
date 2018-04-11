@@ -18,16 +18,18 @@
   
   
   .intro-header {
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: $custom-primary-1;
     span {
       color: $custom-secondary-4;
     }
+
   }
 
-.intro-subheader {
-    font-size: 0.7rem;
+.welcome-text {
+    font-size: 1.25rem;
 }
+
 
 //portfolio section
 .portfolio-box {

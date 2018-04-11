@@ -1,5 +1,5 @@
 .contact-us-title {
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   font-weight: 300;
   border-bottom: 1px dotted $custom-primary-1;
@@ -23,6 +23,14 @@
       border-bottom: 1px dotted $custom-primary-1;
   }
   
+}
+
+.get-in-touch-title {
+  margin-top: 30px;
+  width: 100%;
+  font-weight: 300;
+  border-bottom: 1px dotted $custom-primary-1;
+  text-align: center;
 }
 
 .map-container {
